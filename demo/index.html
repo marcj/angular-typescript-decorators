@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="node_modules/typescript/lib/typescript.js"></script>
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script type="text/javascript">
+        System.config({
+            baseURL: './',
+            transpiler: 'typescript',
+            typescriptOptions: {
+                //"noImplicitAny": true,
+                //"module": "system",
+                //"isolatedModules": true,
+            }
+        });
+
+        window.angularDecoratorModule = window.angular.module('myApp', []);
+        System.import('app.ts').then(function(m) {
+            angular.bootstrap(document, ['myApp']);
+        });
+    </script>
+</head>
+<body>
+    <super-directive label="Hi!"></super-directive>
+    <h3>Controller</h3>
+    <div ng-controller="controllers/MyController as controller">
+        foo {{controller.bar}}
+    </div>
+</body>
+</html>

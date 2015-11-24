@@ -1,0 +1,19 @@
+{
+  "name": "angular-typescript-decorators",
+  "version": "0.1.0",
+  "description": "Glue to use typescript better in Angular v1.4+ apps, registering decorators, filter and controller on the fly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcj/angular-typescript-decorators.git"
+  },
+  "author": {
+    "name": "Marc J. Schmidt",
+    "email": "marc@marcjschmidt.de",
+    "url": "http://marcjschmidt.de"
+  },
+  "license": "ISC"
+}

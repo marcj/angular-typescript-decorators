@@ -1,0 +1,23 @@
+{
+  "name": "angular-typescript-decorators-demo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "systemjs": "^0.18.4",
+    "typescript": "^1.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcj/angular-typescript-decorators.git"
+  },
+  "author": {
+    "name": "Marc J. Schmidt",
+    "email": "marc@marcjschmidt.de",
+    "url": "http://marcjschmidt.de"
+  },
+  "license": "ISC"
+}
