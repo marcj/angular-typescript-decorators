@@ -1,4 +1,4 @@
-# Typescript decorations for Angular v1.4+
+# Typescript decorators for Angular v1.4+
 
 In addition to my other library for annotations in Angular 1.4+ using Ecmascript 6+ (traceur), this is an equal library but for Typescript.
 It gives you some handy decorators you can use to register you directives, filter and dependencies.
