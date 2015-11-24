@@ -84,7 +84,7 @@ registerControllerDecorator(); //now the $controller has been decorated
 
 Make sure that you havent't used `<html ng-app="foo">` or something and boot your angular app manually after all decorators etc have been loaded. See demo/index.html for an example.
 
-2. In you html you don't use controller names but full path names of you controller file:
+2. In your html you don't use controller names but full path names (without file extension) of you controller file:
 
 ```html
 <div ng-controller="controller/MyController as my">
@@ -102,7 +102,7 @@ export default class MyController {
 ```
 
 If you `index.html` is placed in for example `www/` then the controller file for the exampe above needs to be located at `www/controller/MyController.ts`.
-
+In the demo/ you will find a little controller example.
 
 ### Directive
 
